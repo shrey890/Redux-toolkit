@@ -1,0 +1,46 @@
+body {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	background-color: aliceblue;
+}
+a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+.card {
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.769);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+img {
+	height: 80px;
+}
+.productsWrapper {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 30px;
+}
+div h3{
+	text-align: center;
+	font-size: xx-large;
+	color: brown;
+}
+div h1{
+	text-align: center;
+	font-size: xx-large;
+	color: brown;
+}
+.cart-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 14px;
+    border-radius: 5px;
+}
